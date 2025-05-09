@@ -1,0 +1,28 @@
+{
+    "name": "totocsa/laravel-update-packages-js-command",
+    "description": "A short description of your package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Csaba Tóth",
+            "email": "totocsa@gmail.com"
+        }
+    ],
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Totocsa\\UpdatePackagesJsCommand\\": "./"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^10.0|^11.0|^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Totocsa\\UpdatePackagesJsCommand\\UpdatePackagesJsCommandServiceProvider"
+            ]
+        }
+    }
+}
